@@ -8,6 +8,5 @@ class ContactsPage extends StatelessWidget {
     return const Center(
       child: Text('ContactsPage'),
     );
-    ;
   }
 }
