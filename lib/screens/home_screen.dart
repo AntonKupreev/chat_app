@@ -38,6 +38,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: Theme.of(context).iconTheme,
         backgroundColor: Colors.transparent,
         elevation: 0,
         centerTitle: true,
@@ -49,6 +50,7 @@ class HomeScreen extends StatelessWidget {
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
+                color: Colors.black,
               ),
             );
           },
